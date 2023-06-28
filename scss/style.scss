@@ -57,6 +57,10 @@ body{
     font-size: 14px;
     font-weight: bold;
     line-height: 130%;
+    &:hover{
+        transition: .15s ease-in-out background;
+        background: #b56130;
+    }
 }
 .colors{
     &__black{background: #232320;}

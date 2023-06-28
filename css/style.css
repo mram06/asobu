@@ -146,6 +146,10 @@ body {
   font-weight: bold;
   line-height: 130%;
 }
+.button:hover {
+  transition: 0.15s ease-in-out background;
+  background: #b56130;
+}
 
 .colors__black {
   background: #232320;
